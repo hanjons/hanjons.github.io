@@ -57,7 +57,18 @@
         <h2>추천 이벤트</h2>
         <img src="https://source.unsplash.com/600x300/?discount,voucher" alt="쿠폰 이미지" class="image">
         <p>추천인과 추천인 코드에 <strong>'하이퍼스타1'</strong>을 입력하면 <br> 쿠폰 25,000원이 증정됩니다!</p>
+        <form action="/submit" method="post">
+            <label for="store_name">업장명:</label>
+            <input type="text" id="store_name" name="store_name" required>
+        
+            <label for="contact">연락처:</label>
+            <input type="text" id="contact" name="contact" required>
+        
+            <button type="submit">제출하기</button>
+        </form>
+        
         <a href="#" class="cta-button">지금 가입하고 시작하기</a>
+
     </div>
 </body>
 </html>
